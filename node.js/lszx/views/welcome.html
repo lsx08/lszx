@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="module_welcome">
+  <head>
+    <% include TPL_header_include.html%>
+    <link rel="stylesheet" href="/stylesheets/welcome.css"/>
+    <script type="text/javascript" src="/javascripts/anjularJs_modules/module_welcome.js"></script>
+    <title ng-controller="controller_title">{{title}}</title>
+  </head>
+  <body>
+    <div id="container" ng-controller="controller_menus">
+      <div id="imageContainer">
+        <img id="content_img" src="/images/background_main.png">
+        <img id="bar_img" src="/images/bar.png">
+        <ul>
+          <li ng-repeat="m in menus" id="{{m.html_id}}">{{m.name}}</li>
+        </ul>
+      </div>
+      <div style="text-align:center">
+        ---金匮家园  版权所有---
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+body
+{
+	background: url(../images/background_frame.png) repeat;
+	background-size:70%;
+}
+
+#container
+{
+	height:868px;
+	text-align: center;
+}
+
+#imageContainer
+{
+	width: 1400px;
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+}
+
+#content_img
+{
+	width: 1366px;	
+	position:relative;
+	margin-top:50px;
+}
+
+#bar_img
+{
+	width: 220px;
+	position: absolute;
+	top:80px;
+	left:30px
+}
+
+#imageContainer ul
+{
+	position:absolute;
+	top:125px;
+	left:60px;
+	font-family: 楷体;
+}
+
+#imageContainer ul li
+{
+	margin-top:50px;
+	width:160px;
+	height:40px;
+	background:url(../images/button.png) no-repeat;
+	background-size:100%;
+	font-weight:bold;
+	font-size:18px;
+	color:#541929;
+	padding-top:7px;
+	cursor:pointer;
+}
